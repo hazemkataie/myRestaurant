@@ -34,8 +34,12 @@ small {
     opacity: 0;
 }
 
+strong{
+    font-size: 18px;
+}
+
 .show-description p{
-    height: 150px;
+    height: 120px;
 }
 
 .show-description small{
@@ -58,4 +62,8 @@ div{
 }
 .third{
     background-image: url("/Media/patates.jpg");
+}
+
+.price{
+    float: right;
 }
