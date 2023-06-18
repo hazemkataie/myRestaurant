@@ -61,13 +61,13 @@ div{
 }
 
 .first{
-    background-image: url("/Media/tavukDoner.png");
+    background-image: url("./Media/tavukDoner.png");
 }
 .second{
-    background-image: url("/Media/pilavDoner.jpg");
+    background-image: url("./Media/pilavDoner.jpg");
 }
 .third{
-    background-image: url("/Media/patates.jpg");
+    background-image: url("./Media/patates.jpg");
 }
 
 .price{
