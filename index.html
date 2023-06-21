@@ -12,15 +12,21 @@
 <body>
     <h1>ZESTORIA</h1>
     <h2>Anatoly's Culinary Haven</h2>
-    <div class="first">
-        <p><strong>Chicken shawarma</strong><span class="price">75₺</span><br><small>Experience our delectable chicken doner, made with fresh ingredients, special spices, and delicious sauces. Served with fresh vegetables and artisan bread, it offers a light yet satisfying option.</small></p>
+    <div class="container">
+        <div class="first childDiv">
+            <p><strong>Chicken shawarma</strong><span class="price">75₺</span><br><small>Experience our delectable chicken doner, made with fresh ingredients, special spices, and delicious sauces. Served with fresh vegetables and artisan bread, it offers a light yet satisfying option.</small></p>
+        </div>
+        <div class="second childDiv">
+            <p><strong>Meat shawarma on rice</strong><span class="price">90₺</span><br><small>Indulge in our meticulously prepared, flavorful meat doner served with smoky pilaf. It's an unforgettable experience for meat lovers.</small></p>
+        </div>
+        <div class="third childDiv">
+            <p><strong>French fries</strong><span class="price">55₺</span><br><small>Savor the delight of our crispy, golden potato fries made from carefully selected fresh potatoes. The perfect complement to your meal, adding flavor, satisfaction, and an irresistible crunch.</small></p>
+        </div>
+        <div class="fourth childDiv">
+            <p><strong>Fresh Sparkling Ayran</strong><span class="price">35₺</span><small>A delightful Middle Eastern beverage made with natural yogurt, water, and a hint of salt. Enjoy the traditional taste of Ayran at our restaurant.</small></p>
+        </div>
     </div>
-    <div class="second">
-        <p><strong>Meat shawarma on rice</strong><span class="price">90₺</span><br><small>Indulge in our meticulously prepared, flavorful meat doner served with smoky pilaf. It's an unforgettable experience for meat lovers.</small></p>
-    </div>
-    <div class="third">
-        <p><strong>French fries</strong><span class="price">55₺</span><br><small>Savor the delight of our crispy, golden potato fries made from carefully selected fresh potatoes. The perfect complement to your meal, adding flavor, satisfaction, and an irresistible crunch.</small></p>
-    </div>
+    
     <footer>
         <ul>
             <li><a href="#"></a>Instagram</li>
@@ -28,7 +34,7 @@
         </ul>
     </footer>
     <script>
-        $('div').on('click', function() {
+        $('.childDiv').on('click', function() {
             $(this).toggleClass('show-description');
         });
     </script>
