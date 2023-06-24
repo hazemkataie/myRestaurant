@@ -2,21 +2,23 @@ body {
     font-family: helvetica, sans-serif;
     margin: 0 auto;
     max-width: 1200px;
-    background: #232323;
+    /* background: #232323; */
+    background: #333333;
 }
   
 h1 {
     font-family: 'Londrina Shadow', cursive;
     text-align: center;
     font-size: 115px;
-    color: #aaaaaa;
+    /* color: #aaaaaa; */
+    color: #dddddd;
     margin: 60px 0 5px 0;
 }
   
 h2 {
     margin: 0 0 65px 0;
     text-align: center;
-    color: #bbbbbb;
+    color: #999999;
 }
   
 p {
@@ -24,6 +26,7 @@ p {
     background: rgba(0,0,0,1);
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
     background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
+    
     padding: 15px;
     line-height: 28px;
     text-align: justify;
@@ -59,17 +62,18 @@ strong{
     height: 300px;
     margin: 10px;
     overflow: hidden;
+    border-radius: 30px;
 }
   
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #5d5d5d;
+    background-color: #333333;
 }
   
 .first, .second, .third, .fourth {
-    width: 45%;
+    width: 50%;
     background-position: center;
     background-size: cover;
 }
